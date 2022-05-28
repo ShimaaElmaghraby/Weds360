@@ -1,134 +1,3 @@
-/* footer{
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    background: #111;
-  }
-  footer .footerContent{
-    max-width: 1350px;
-    margin: auto;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  footer .footerContent p,a{
-    color: #fff;
-  }
-  footer .footerContent .descSection{
-    width: 33%;
-    transition: all 0.4s ease;
-  }
-  footer .footerContent .footerHeadSection{
-    color: rgb(128, 128, 128);
-    font-weight: 600;
-    text-align: start;
-    font-size: 22px;
-    font-weight: 600;
-    margin-bottom: 16px;
-  
-  }
-  footer .footerContent p{
-    text-align: justify;
-  }
-  footer .footerContent .apps .footerHeadSection{
-    margin: 24px 0 5px 0;
-  }
-  footer .footerContent .apps i{
-    padding-right: 16px;
-  }
-  footer .footerContent .supportSection{
-    width: 33%;
-    transition: all 0.4s ease;
-  }
-  footer .footerContent .supportSection a{
-    line-height: 32px;
-    text-decoration: none;
-  }
-  footer .footerContent .contactSection{
-    width: 33%;
-    transition: all 0.4s ease;
-  }
-footer .footerContent .media-icons a{
-  font-size: 16px;
-  height: 45px;
-  width: 45px;
-  display: inline-block;
-  text-align: center;
-  line-height: 43px;
-  border-radius: 5px;
-  border: 2px solid #222222;
-  margin: 30px 5px 0 0;
-  transition: all 0.3s ease;
-}
-
-footer a{
-  transition: all 0.3s ease;
-}
-.footerlink a{
-    color: inherit;
-    text-decoration: inherit;
-    font-weight: 300;
-    display: flex;
-    justify-content: flex-start;
-}
-
-.contactInfo{
-   color: rgba(229,231,235, 1);
-   font-weight:700 ;
-}
-.contactInfoValue {
-    color: rgba(156, 163, 175, 1);
-}
-.contactInfoValue:hover {
-    color: rgba(229,231,235, 1);
-}
-.footerlink {
-    color: rgba(229,231,235, 1);
-    list-style: none;
-}
-@media (max-width:1100px) {
-    footer .footerContent .supportSection{
-      padding-left: 50px;
-    }
-  }
-  @media (max-width:950px){
-    footer .footerContent .descSection{
-      width: 50%;
-    }
-    footer .footerContent .supportSection{
-        width: 50%;
-      }
-      footer .footerContent .contactSection{
-        width: 50%;
-      }
-    .footerContent .contactSection{
-      margin-top: 40px;
-    }
-  }
-  @media (max-width:560px){
-    footer{
-      position: relative;
-    }
-    footer .footerContent .descSection{
-      width: 100%;
-      margin-top: 30px;
-    }
-    footer .footerContent .supportSection{
-        width: 100%;
-        margin-top: 30px;
-      }
-      footer .footerContent .contactSection{
-        width: 100%;
-        margin-top: 30px;
-      }
-    footer .footerContent .supportSection{
-      padding-left: 0;
-    }
-  } */
-/*    */
-
 .footer {
   background-color: var(--wed-black);
   color: var(--wed-white);
@@ -220,4 +89,104 @@ footer a{
   padding-right: 20px;
 }
 
+@media (max-width:1280px) {
 
+  footer .supportSection {
+    padding-right: 25px;
+  }
+
+  .supportSection ul {
+    margin-left: 100px;
+  }
+
+  .supportSection p {
+    padding-left: 100px;
+  }
+
+  footer .contactSection {
+    padding-right: 5px;
+    line-height: 20px;
+  }
+
+  .socialMedia {
+    margin-bottom: 10px;
+    margin-right: 40px;
+  }
+}
+
+@media (max-width:991px) {
+  footer .textSection div {
+    margin-left: 30px;
+  }
+
+  footer .textSection ul {
+    margin-left: -12px;
+  }
+
+  .supportSection ul {
+    margin-left: 80px;
+  }
+
+  .supportSection p {
+    padding-left: 80px;
+  }
+
+  footer .contactSection {
+    padding-right: 0px;
+  }
+
+  .socialMedia {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width:643px) {
+  .footer {
+    display: inline-block;
+    padding-left: 30px;
+  }
+
+  .textSection,
+  .supportSection,
+  .contactSection {
+    width: 100%;
+  }
+
+  footer .textSection div {
+    margin-left: 0px;
+  }
+
+  footer .textSection p {
+    width: 57%;
+  }
+
+  footer .textSection ul {
+    margin-left: -43px;
+  }
+
+  footer .supportSection {
+    padding-right: 0px;
+  }
+
+  footer .supportSection p {
+    padding-left: 0px;
+  }
+
+  footer .supportSection ul {
+    margin-left: 0px;
+  }
+
+  .socialMedia {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width:480px) {
+  .footer {
+    padding-left: 15px;
+  }
+
+  footer .textSection p {
+    width: 86%;
+  }
+}
