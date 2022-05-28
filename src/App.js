@@ -14,7 +14,7 @@ function App() {
             <SearchBar/>
           </div>
           <div className="imageSection">
-
+            
           </div>
 
         </div>

@@ -34,8 +34,8 @@ function Header() {
     const [dropdownStyle, setDropdownStyle] = useState({ display: 'none' });
 
     return (
-        <div style={{ position: "sticky" }}>
-            <div className="">
+        <div>
+            <div className={style.mainContainer}>
                 <nav className={style.navBarContainer}>
                     <div className={style.navBar}>
                         <span>

@@ -38,6 +38,7 @@
 }
 
 .mainContainer {
+  margin-top: 100px;
   display: grid;
   grid-template-areas:
     'search image image image image image'

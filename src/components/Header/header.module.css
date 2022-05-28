@@ -1,7 +1,13 @@
+.mainContainer{
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 .navBarContainer {
     border-color: rgba(229, 231, 235, 1);
     position: relative;
-    overflow: hidden;
     font-size: .875rem;
 }
 
