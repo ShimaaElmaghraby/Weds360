@@ -1,0 +1,200 @@
+{
+    "categories":[
+        {"id":1,"name":"Suits","imageUrl":"suits.png"},
+        {"id":2,"name":"Health", "imageUrl":"health.png"},
+        {"id":3,"name":"Fitness", "imageUrl":"fitness.png"},
+        {"id":4,"name":"Rings", "imageUrl":"ring.png"},
+        {"id":5,"name":"Makeup Artists", "imageUrl":"makeup-artists.png"}  
+    ],
+    "images":[
+        {
+            "id":1,
+            "name":"Navy",
+            "imageUrl":"navy.png",
+            "description":"NAVY is a tailor-made suit brand, Italian, Turkish, and English high-quality fabrics.",
+            "categoryId":1
+        },   
+        {
+            "id":2,
+            "name":"Mr.Tuxedos",
+            "imageUrl":"Mr.tuxedos.png",
+            "description":"MR.TUXEDOS,Italian Bespoke Tailoring And Essentials For The Modern Gentleman.",
+            "categoryId":1
+        },
+        {
+            "id":3,
+            "name":"MOAAZ EL BEHAIRY",
+            "imageUrl":"Moaaz-ElBehairy.png",
+            "description":"Believing in change by the unorthodox methods and approaches of fashion created by Moaaz EL Behairy.",
+            "categoryId":1
+
+        },  
+        {
+            "id":4,
+            "name":"EL Eskafy",
+            "imageUrl":"elskafy.png",
+            "description":"El Eskafy is the first online page in the middle east to customize handmade leather shoes.",
+            "categoryId":1
+
+        },
+        {
+            "id":5,
+            "name":"Suits Me",
+            "imageUrl":"Suit-Me.png",
+            "description":"Suit Me gives you a personal and engaging experience where you get to be measured-up.",
+            "categoryId":1
+
+        },      
+        {
+            "id":6,
+            "name":"Bloom Diet Experts",
+            "imageUrl":"Bloom-Diet-Experts.png",
+            "description":"we believe that losing weight is a lifelong eating plan through which you learn to change your eating habits and learn how to balance.",
+            "categoryId":2
+        },   
+        
+        {
+            "id":7,
+            "name":"Inside Out Counseling Center",
+            "imageUrl":"Inside-Out-Counseling-Center.png",
+            "description":"Learning to modify the behaviors that have a negative effect on their lives.",
+            "categoryId":2
+        },
+        {
+            "id":8,
+            "name":"Serenity Psychology Center",
+            "imageUrl":"Serenity-Psychology-Center.png",
+            "description":"Serenity is a psychology center that offers individual sessions, couple therapy, and group therapy.",
+            "categoryId":2
+        },
+        {
+            "id":9,
+            "name":"The Re Relation Retreat",
+            "imageUrl":"The-Re-Relation-Retreat.png",
+            "description":"Happy relationships yield happy individuals and hence happy communities.",
+            "categoryId":2
+
+        },
+        {
+            "id":10,
+            "name":"UPLIFT16",
+            "imageUrl":"UPLIFT16.png",
+            "description":"We help you build healthy habits for life.",
+            "categoryId":2
+
+        },
+        {
+            "id":11,
+            "name":"H2O GYM",
+            "imageUrl":"H2o-Gym.png",
+            "description":"Fitness and change the way you feel about yourself.",
+            "categoryId":3
+        },
+        {
+            "id":12,
+            "name":"Titans Gym",
+            "imageUrl":"Titans-Gym.png",
+            "description":"We have a squash court, a kids area, a workout area, a swimming pool.",
+            "categoryId":3
+        },
+        {
+            "id":13,
+            "name":"IGNITE Egypt",
+            "imageUrl":"IGNITE-Egypt.png",
+            "description":"Results which have been tested out by athletes worldwide.",
+           "categoryId":3
+        },
+        {
+            "id":14,
+            "name":"TRANSFORMERS FITNESS CENTER",
+            "imageUrl":"Transformers-Fitness-Center.png",
+            "description":"TRANSFORMERS FITNESS CENTER , gym it and make your form.",
+            "categoryId":3
+        },
+        {
+            "id":15,
+            "name":"Balanc Gym",
+            "imageUrl":"Balance-Gym.png",
+            "description":"Balance Gym is the first gym in Egypt that gives you unlimited access to all branches.",
+            "categoryId":3
+        } ,
+        {
+            "id":16,
+            "name":"A large diamond rose",
+            "imageUrl":"A-large-diamond-rose.png",
+            "description":"The artistic design of a wedding ring studded with diamonds.",
+            "categoryId":4
+
+        },
+        {
+            "id":17,
+            "name":"Open Cuff diamond ring",
+            "imageUrl":"Open-Cuff-diamond-ring.png",
+            "description":"An elegantly designed diamond wedding ring with open Cuff.",
+            "categoryId":4
+
+        },   
+        {
+            "id":18,
+            "name":"Oval red topaz",
+            "imageUrl":"Oval-red-topaz.png",
+            "description":"Ring encrusted with an oval red topaz in the center of the ring, surrounded by small round diamonds.",
+            "categoryId":4
+        },   
+        {
+            "id":19,
+            "name":"Pearl with a butterfly",
+            "imageUrl":"Pearl-with-a-butterfly.png",
+            "description":"This diamond wedding ring is very elegant in design.",
+            "categoryId":4
+        },   
+        {
+            "id":20,
+            "name":"Three rows diamond band",
+            "imageUrl":"three-rows-diamond-band.png",
+            "description":"The outer rows have round and rectangular stones.",
+            "categoryId":4
+
+        },  
+        {
+            "id":21,
+            "name":"Kholoud Hegab",
+            "imageUrl":"Kholoud-Hegab.png",
+            "description":"Looking for a MakeUp Artist makes your beauty shines on your wedding day! Kholoud is the one.",
+            "categoryId":5
+
+        },    
+        {
+            "id":22,
+            "name":"Lobna Farid",
+            "imageUrl":"Lobna-Farid.png",
+            "description":"I started to love makeup when I turned 11 years and never stopped.",
+            "categoryId":5
+
+        },   
+        {
+            "id":23,
+            "name":"Mira ElFeky",
+            "imageUrl":"Mira-ElFeky.png",
+            "description":"Mira ElFeky is a certified Professional Makeup Artist From Kryolan Germany.",
+            "categoryId":5
+
+        },   
+        {
+            "id":24,
+            "name":"Mona Gamal",
+            "imageUrl":"Mona-Gamal.png",
+            "description":"Beauty is power and makeup is something that really enhances that, it's a woman's secret.",
+            "categoryId":5
+
+        },  
+        {
+            "id":25,
+            "name":"Rowan Khaled",
+            "imageUrl":"Rowan-Khaled.png",
+            "description":"Makeup should use to enhance your gorgeous part of you.",
+            "categoryId":5
+
+        }
+    ]
+}
