@@ -1,6 +1,6 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
-import style from "./header.module.css"
+import style from "./header.module.css";
 import logo from "../../assets/weds360Logo.png";
 
 
@@ -31,9 +31,10 @@ const DropDownMenu = styled.div`
 
 function Header() {
 
-    const [dropdownStyle, setDropdownStyle] = useState({display: 'none'});
-    return(
-        <div style={{position:"sticky"}}>
+    const [dropdownStyle, setDropdownStyle] = useState({ display: 'none' });
+
+    return (
+        <div style={{ position: "sticky" }}>
             <div className="">
                 <nav className={style.navBarContainer}>
                     <div className={style.navBar}>
@@ -41,46 +42,46 @@ function Header() {
                             <img alt="Weds360 Logo" className={style.navBarLogo} src={logo} />
                         </span>
                         <div className={style.navBarMenu}>
-                            <NavButton style={{paddingRight:"10px"}}
-                            onMouseEnter={() => { setDropdownStyle({display: 'block'}); }}
-                            onMouseLeave={() => { setDropdownStyle({display: 'none'}); }} 
+                            <NavButton style={{ paddingRight: "10px" }}
+                                onMouseEnter={() => { setDropdownStyle({ display: 'block' }); }}
+                                onMouseLeave={() => { setDropdownStyle({ display: 'none' }); }}
                             > 360 Planner
                             </NavButton>
-                            <DropDownMenu 
-                                onMouseEnter={() => { setDropdownStyle({display: 'block'}); }}
-                                onMouseLeave={() => { setDropdownStyle({display: 'none'}); }}
+                            <DropDownMenu
+                                onMouseEnter={() => { setDropdownStyle({ display: 'block' }); }}
+                                onMouseLeave={() => { setDropdownStyle({ display: 'none' }); }}
                                 style={dropdownStyle} >
-                                    <a href="/" className={style.dropDownMenuOption}><span >Check List</span></a>
-                                    <a href="/" className={style.dropDownMenuOption}><span >Budgeter</span></a>
-                                    <a href="/" className={style.dropDownMenuOption}><span >Guest List</span></a>
-                                    <a href="/" className={style.dropDownMenuOption}><span >Registry List</span></a>          
+                                <a href="/" className={style.dropDownMenuOption}><span >Check List</span></a>
+                                <a href="/" className={style.dropDownMenuOption}><span >Budgeter</span></a>
+                                <a href="/" className={style.dropDownMenuOption}><span >Guest List</span></a>
+                                <a href="/" className={style.dropDownMenuOption}><span >Registry List</span></a>
                             </DropDownMenu>
-                            <NavButton  style={{paddingRight:"10px"}}> Her </NavButton>
-                            <NavButton  style={{paddingRight:"10px"}}> Him </NavButton>
-                            <NavButton  style={{paddingRight:"10px"}}> The Wedding </NavButton>
-                            <NavButton  style={{paddingRight:"10px"}}> Vendors </NavButton>
-                            <NavButton  style={{paddingRight:"10px"}}> Gallary </NavButton>
-                            <NavButton  style={{paddingRight:"10px"}}> Ideas&More </NavButton>
-                            <NavButton  style={{paddingRight:"10px"}}> Take a Tour </NavButton>          
+                            <NavButton style={{ paddingRight: "10px" }}> Her </NavButton>
+                            <NavButton style={{ paddingRight: "10px" }}> Him </NavButton>
+                            <NavButton style={{ paddingRight: "10px" }}> The Wedding </NavButton>
+                            <NavButton style={{ paddingRight: "10px" }}> Vendors </NavButton>
+                            <NavButton style={{ paddingRight: "10px" }}> Gallary </NavButton>
+                            <NavButton style={{ paddingRight: "10px" }}> Ideas&More </NavButton>
+                            <NavButton style={{ paddingRight: "10px" }}> Take a Tour </NavButton>
                         </div>
-                        <div className={style.searchBar}>                
+                        <div className={style.searchBar}>
                             <label className={style.searchBarLabel}>
-                                <input type="text" className={style.searchBarInput} placeholder="Search"/>
-                            </label>  
+                                <input type="text" className={style.searchBarInput} placeholder="Search" />
+                            </label>
                         </div>
-                        <div className=''>   
+                        <div className=''>
                             <div className={style.loginContainer}>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                    <path d="M8 9a3 3 0 100-6 3 3 0 000 6zM8 11a6 6 0 016 6H2a6 6 0 016-6zM16 7a1 1 0 10-2 0v1h-1a1 1 0 100 2h1v1a1 1 0 102 0v-1h1a1 1 0 100-2h-1V7z"/>
+                                    <path d="M8 9a3 3 0 100-6 3 3 0 000 6zM8 11a6 6 0 016 6H2a6 6 0 016-6zM16 7a1 1 0 10-2 0v1h-1a1 1 0 100 2h1v1a1 1 0 102 0v-1h1a1 1 0 100-2h-1V7z" />
                                 </svg>
-                                <button className={style.languageButton + ' ml-7 absolute flex items-center mx-2 text-sm rounded-full text-gray-600 hover:text-gray-500'} style={{color: "rgb(2, 77, 76)"}}>
+                                <button className={style.languageButton + ' ml-7 absolute flex items-center mx-2 text-sm rounded-full text-gray-600 hover:text-gray-500'} style={{ color: "rgb(2, 77, 76)" }}>
                                     <span className={style.languageText + ' rounded font-semibold text-xs step12'}> ع </span>
-                                </button>                 
+                                </button>
                             </div>
-                        </div>        
+                        </div>
                     </div>
                 </nav>
-            </div>           
+            </div>
         </div>
     )
 }
