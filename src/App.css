@@ -46,10 +46,12 @@
   gap: 10px;
 }
 
-.mainContainer>div {
+.mainContainer .imageSection {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
-  padding: 20px 0;
+  /* padding: 20px 0; */
+  /* padding-left: 60px; */
+  padding-top: 65px;
   font-size: 1.125rem;
 }
 
@@ -70,7 +72,12 @@
   .mainContainer>div {
     padding: 0 0;
   }
+  .mainContainer .imageSection{
+    padding-left: 60px;
+  }
 }
-@media (max-width:643px){
- 
+@media (max-width:480px){
+  .mainContainer .imageSection{
+    padding-left: 25px;
+  }
 }

@@ -25,18 +25,16 @@ function SearchBar(){
         color: white;
         display: block;
         background-color: black;
+        cursor: pointer;
         padding: 10px 30px;
         border-radius: 0.5rem;
         font-weight: 500;
         font-size: .875rem;
         text-align: center;
         margin-top: 25px;
-        width: 55%;
+        width: 82%;
         &:hover {
             font-weight:900;
-        }
-        @media (max-width:1280px){
-            width:65%
         }
         @media (max-width:480px){
             padding:10px 10px;
