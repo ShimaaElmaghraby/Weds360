@@ -3,12 +3,9 @@ import styled from "styled-components";
 
 function Card({imageName,imageSrc}) {
 
-
-
     const Card = styled.div`
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
-       
         border-radius:10px;
         cursor: pointer;
         &:hover{
@@ -17,7 +14,7 @@ function Card({imageName,imageSrc}) {
     `
     const ImageCard = styled.img`
         width:100%;
-        height:50%;
+        height:220px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     `
@@ -27,19 +24,17 @@ function Card({imageName,imageSrc}) {
     const Heading = styled.h4`
             padding-bottom: 10px;
             margin-top: 5px;
+            text-align:center;
     `
+
     return (
         <>
-        <div>
             <Card>
-                {/* <ImageCard src={require(`../../assets/images/categories/fitness.png`)} alt="Fitness"/> */}
                 <ImageCard src={require(`../../assets/images/${imageSrc}`)} alt={imageName}/>
                 <CardContainer>
-                    {/* <Heading><b>Shimaa Ahmed</b></Heading> */}
-                    <Heading><b>{imageName}</b></Heading> 
+                    <Heading><b>{imageName}</b></Heading>
                 </CardContainer>
             </Card>
-        </div>
         </>
     )
 }

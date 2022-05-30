@@ -18,7 +18,9 @@
     gap: 10px;
     padding: 10px;
 }
-
+.navBar span{
+    text-align: center;
+}
 .navBarMenu {
     display: flex;
     justify-content: space-between;
@@ -84,4 +86,38 @@
 
 .languageText {
     color: white;
+}
+
+@media (max-width:1280px){
+    .navBar{
+        grid-template-columns: auto auto;
+        gap: 0px;
+    }
+    .navBarMenu{
+        padding-right: 100px;
+    }
+    .loginContainer {
+        width: 10%;
+        margin-top: 2%;
+    }
+    .languageButton {
+        padding: 6px;
+    }
+}
+@media (max-width:768px){
+    .loginContainer {
+        margin-top: 4%;
+    }
+}
+@media (max-width:643px){
+    .navBar{
+        grid-template-columns: 120px auto;
+    }
+    .navBarMenu{
+        padding-right: 0px;
+    }
+    .loginContainer{
+        width: 14%;
+        margin-left: 150px;
+    }
 }

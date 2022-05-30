@@ -64,16 +64,26 @@
     transform: rotate(360deg);
   }
 }
+@media (max-width:1280px){
+  .mainContainer .imageSection {
+    padding-top: 100px;
+  }
+  .searchSection{
+    padding-top: 30px;
+  }
+}
 @media (max-width:991px) {
   .mainContainer {
     display: flex;
     flex-direction: column;
   }
-  .mainContainer>div {
-    padding: 0 0;
-  }
   .mainContainer .imageSection{
     padding-left: 60px;
+  }
+}
+@media (max-width:768px){
+  .mainContainer .imageSection {
+    padding-top: 0px;
   }
 }
 @media (max-width:480px){

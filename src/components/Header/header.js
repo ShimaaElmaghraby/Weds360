@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import style from "./header.module.css";
 import logo from "../../assets/weds360Logo.png";
@@ -56,13 +57,11 @@ function Header() {
                                 <a href="/" className={style.dropDownMenuOption}><span >Guest List</span></a>
                                 <a href="/" className={style.dropDownMenuOption}><span >Registry List</span></a>
                             </DropDownMenu>
-                            <NavButton style={{ paddingRight: "10px" }}> Her </NavButton>
-                            <NavButton style={{ paddingRight: "10px" }}> Him </NavButton>
+                            <Link to='/categories' style={{ textDecoration: 'none', color: 'black' }}><NavButton style={{ paddingRight: "10px" }}> All Categories </NavButton></Link>
+                            <Link to='/' style={{ textDecoration: 'none', color: 'black' }}><NavButton style={{ paddingRight: "10px" }}> All Images </NavButton></Link>
                             <NavButton style={{ paddingRight: "10px" }}> The Wedding </NavButton>
                             <NavButton style={{ paddingRight: "10px" }}> Vendors </NavButton>
                             <NavButton style={{ paddingRight: "10px" }}> Gallary </NavButton>
-                            <NavButton style={{ paddingRight: "10px" }}> Ideas&More </NavButton>
-                            <NavButton style={{ paddingRight: "10px" }}> Take a Tour </NavButton>
                         </div>
                         <div className={style.searchBar}>
                             <label className={style.searchBarLabel}>
