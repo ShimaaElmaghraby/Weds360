@@ -1,13 +1,14 @@
 import style from './footer.module.css';
 import styled from "styled-components";
+
+const MainFooter = styled.div`
+    background-color: black;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    text-align: center;
+`
 function Footer() {
 
-    const MainFooter = styled.div`
-        background-color: black;
-        border-top-left-radius: 45px;
-        border-top-right-radius: 45px;
-        text-align: center;
-    `
     return (
         <MainFooter>
             <footer className={style.footer}>

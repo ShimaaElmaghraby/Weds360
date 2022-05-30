@@ -11,7 +11,6 @@ function PhotoDetails() {
                 return res.json()
             })
             .then((data) => {
-                console.log(data)
                 setImage(data)
             })
             .catch(err => {
@@ -22,7 +21,7 @@ function PhotoDetails() {
     let [image, setImage] = useState({});
     const { id } = useParams();
     let url = ` http://localhost:3000/images/${(Number(id))}`;
-    console.log("photodetailsId" + id);
+
     if (image.id) {
         return (
             <div className={style.mainContainer}>

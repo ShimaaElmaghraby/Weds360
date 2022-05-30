@@ -19,7 +19,6 @@ function CategoryList() {
         })
             .then(function (response) {
                 setCategoryImage(response.data);
-                console.log(response.data);
             })
     }, [])
 
