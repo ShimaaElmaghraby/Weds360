@@ -6,6 +6,7 @@
         {"id":4,"name":"Rings", "imageUrl":"ring.png"},
         {"id":5,"name":"Makeup Artists", "imageUrl":"makeup-artists.png"}  
     ],
+    
     "images":[
         {
             "id":1,

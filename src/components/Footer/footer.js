@@ -10,15 +10,15 @@ function Footer() {
     `
     return (
         <MainFooter>
-            <footer className={style.footer}>                
+            <footer className={style.footer}>
                 <section className={style.textSection}>
                     <div>
                         <p>
-                            Plan your wedding wherever and 
+                            Plan your wedding wherever and
                             whenever you want on the Weds360 App
                         </p>
                     </div>
-                    <ul style={{display: "flex",listStyle: "none"}}>
+                    <ul style={{ display: "flex", listStyle: "none" }}>
                         <li>
                             <a href="https://apps.apple.com/us/app/weds360/id1437100880" title="App Store">
                                 <img src="https://weds360-production.s3.eu-west-1.amazonaws.com/new-weds360-preprod/PHOTOS/1644512613-Badge-1.png" alt="Apple Store" />
@@ -27,13 +27,13 @@ function Footer() {
 
                         <li>
                             <a href="https://play.google.com/store/apps/details?id=com.plus360.weds360" title="Google Play" >
-                                <img src="https://weds360-production.s3.eu-west-1.amazonaws.com/new-weds360-preprod/PHOTOS/1644512613-g4036.png" alt="Google Play"/>
+                                <img src="https://weds360-production.s3.eu-west-1.amazonaws.com/new-weds360-preprod/PHOTOS/1644512613-g4036.png" alt="Google Play" />
                             </a>
                         </li>
 
                         <li>
                             <a href="https://appgallery.huawei.com/app/C105048519" title="huawei">
-                                <img src="https://weds360-production.s3.eu-west-1.amazonaws.com/new-weds360-preprod/PHOTOS/1644512613-Badge.png" alt="Huawei Store"/>
+                                <img src="https://weds360-production.s3.eu-west-1.amazonaws.com/new-weds360-preprod/PHOTOS/1644512613-Badge.png" alt="Huawei Store" />
                             </a>
                         </li>
                     </ul>
@@ -53,7 +53,7 @@ function Footer() {
                     </ul>
                 </section>
 
-                <section className={style.contactSection} style={{display:"flex"}}>
+                <section className={style.contactSection} style={{ display: "flex" }}>
                     <div>
                         <p className={style.footerHeadSection}>Contact Us</p>
                         <ul>
@@ -79,7 +79,7 @@ function Footer() {
                         <ul className={style.socialMedia}>
                             <li>
                                 <a href="https://www.facebook.com/Weds360/" title="Facebook" target="">
-                                    <img src="https://weds360-production.s3.eu-west-1.amazonaws.com/new-weds360-preprod/PHOTOS/1644512613-Facebook.png" alt="Facebook"/>
+                                    <img src="https://weds360-production.s3.eu-west-1.amazonaws.com/new-weds360-preprod/PHOTOS/1644512613-Facebook.png" alt="Facebook" />
                                 </a>
                             </li>
                             <li>

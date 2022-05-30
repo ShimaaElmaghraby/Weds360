@@ -1,4 +1,4 @@
-.mainContainer{
+.mainContainer {
     overflow: hidden;
     background-color: white;
     position: fixed;
@@ -6,6 +6,7 @@
     width: 100%;
     z-index: 9;
 }
+
 .navBarContainer {
     border-color: rgba(229, 231, 235, 1);
     position: relative;
@@ -18,9 +19,11 @@
     gap: 10px;
     padding: 10px;
 }
-.navBar span{
+
+.navBar span {
     text-align: center;
 }
+
 .navBarMenu {
     display: flex;
     justify-content: space-between;
@@ -41,6 +44,9 @@
     display: flex;
     justify-content: flex-start;
     height: 30px;
+}
+.dropDownMenuOption:hover{
+    color: #54989b ;
 }
 
 .searchBar {
@@ -88,36 +94,57 @@
     color: white;
 }
 
-@media (max-width:1280px){
-    .navBar{
+@media (max-width:1280px) {
+    .navBar {
         grid-template-columns: auto auto;
         gap: 0px;
     }
-    .navBarMenu{
+
+    .navBarMenu {
         padding-right: 100px;
     }
+
     .loginContainer {
         width: 10%;
         margin-top: 2%;
     }
+
     .languageButton {
         padding: 6px;
     }
 }
-@media (max-width:768px){
+
+@media (max-width:768px) {
     .loginContainer {
         margin-top: 4%;
     }
 }
-@media (max-width:643px){
-    .navBar{
+
+@media (max-width:643px) {
+    .navBar {
         grid-template-columns: 120px auto;
     }
-    .navBarMenu{
+
+    .navBarMenu {
         padding-right: 0px;
     }
-    .loginContainer{
+
+    .loginContainer {
         width: 14%;
         margin-left: 150px;
+    }
+}
+@media (max-width:480px){
+    .navBar span {
+        text-align: start;
+    }
+    
+    .navBarLogo{
+        padding-left: 0px;
+    }
+    .navBarMenu{
+        padding-right: 100px;
+        margin-left: -42px;
+        font-size: 0.8rem;
     }
 }

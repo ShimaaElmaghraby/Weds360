@@ -2,7 +2,7 @@ import React from 'react';
 import style from './searchBar.module.css';
 import styled from "styled-components";
 
-function SearchBar(){
+function SearchBar() {
 
     const SearchInput = styled.input`
         
@@ -44,21 +44,25 @@ function SearchBar(){
         }
     }`
 
-    return(
+    return (
         <>
-        <form>
-            <label className={style.searchBarLabel}>
-                <SearchInput type="text" name="search" placeholder="Search"/>
-            </label>
-            <div>
-                <Button>
-                    Search
-                </Button>
-                <Button>
-                    Clear Search
-                </Button>
-            </div>
-        </form>
+            <form>
+                <label className={style.searchBarLabel}>
+                    <SearchInput
+                        type="text"
+                        name="search"
+                        placeholder="Search"
+                    />
+                </label>
+                <div>
+                    <Button>
+                        Search
+                    </Button>
+                    <Button>
+                        Clear Search
+                    </Button>
+                </div>
+            </form>
         </>
     )
 }

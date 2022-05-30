@@ -1,8 +1,9 @@
-form div{
+form div {
   padding-left: 45px;
 }
-@media (max-width:991px){
-  form div{
+
+@media (max-width:991px) {
+  form div {
     padding-left: 0px;
     display: flex;
     gap: 10px;

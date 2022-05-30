@@ -28,6 +28,7 @@ const DropDownMenu = styled.div`
     margin-left: -100px;
     list-style: none;
     padding: 12px;
+    
 `
 
 function Header() {
@@ -59,7 +60,6 @@ function Header() {
                             </DropDownMenu>
                             <Link to='/categories' style={{ textDecoration: 'none', color: 'black' }}><NavButton style={{ paddingRight: "10px" }}> All Categories </NavButton></Link>
                             <Link to='/' style={{ textDecoration: 'none', color: 'black' }}><NavButton style={{ paddingRight: "10px" }}> All Images </NavButton></Link>
-                            <NavButton style={{ paddingRight: "10px" }}> The Wedding </NavButton>
                             <NavButton style={{ paddingRight: "10px" }}> Vendors </NavButton>
                             <NavButton style={{ paddingRight: "10px" }}> Gallary </NavButton>
                         </div>
