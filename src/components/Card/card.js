@@ -9,12 +9,17 @@ const CardDiv = styled.div`
     &:hover{
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     }
+
 `
 const ImageCard = styled.img`
-    width:100%;
+    width:220px;
     height:220px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    @media (max-width:991px){
+        width:100%;
+        height:auto;
+    }
 `
 const CardContainer = styled.div`
     padding: 0px 0px;

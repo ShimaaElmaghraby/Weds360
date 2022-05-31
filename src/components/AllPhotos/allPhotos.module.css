@@ -73,3 +73,9 @@
     padding-left: 25px;
   }
 }
+
+@media (max-width:376px) {
+  .column {
+    padding: 0 0;
+  }
+}

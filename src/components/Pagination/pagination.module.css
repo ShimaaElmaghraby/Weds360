@@ -1,0 +1,27 @@
+.pagination{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-right: 85px;
+}
+.pagination li{
+    padding:0 15px;
+}
+.pageLink {
+    border-color: #346751 !important;
+    border-radius: 5px !important;
+    color: black !important;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 6px;
+}
+.pageLink:hover {
+    
+    background-color: #346751;
+}
+@media (max-width:376px){
+    .pagination{
+        margin-right: 50px;
+    }
+  }
