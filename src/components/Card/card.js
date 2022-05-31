@@ -12,11 +12,11 @@ const CardDiv = styled.div`
 
 `
 const ImageCard = styled.img`
-    width:220px;
+    width:250px;
     height:220px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    @media (max-width:991px){
+    @media (max-width:1280px){
         width:100%;
         height:auto;
     }

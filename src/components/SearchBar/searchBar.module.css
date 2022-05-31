@@ -1,8 +1,9 @@
 form div {
-  padding-left: 45px;
+  padding-left: 30px;
 }
 
-@media (max-width:991px) {
+
+@media (max-width:1280px) {
   form div {
     padding-left: 0px;
     display: flex;

@@ -36,12 +36,11 @@
 }
 
 @media (max-width:1280px) {
-  .mainContainer .contentSection {
-    padding-top: 100px;
+  .mainContainer{
+    display: block;
   }
-
   .searchSection {
-    padding-top: 30px;
+    padding-top: 135px;
   }
 }
 
@@ -52,7 +51,7 @@
   }
 
   .mainContainer .contentSection {
-    padding-left: 60px;
+    padding-left: 20px;
   }
 
   .column {

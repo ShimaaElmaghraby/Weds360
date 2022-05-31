@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams, Link } from 'react-router-dom';
 import axios from "axios";
 import Card from "../Card/card";
+import style from "./categoryList.module.css";
 
 
 function CategoryList() {
@@ -26,7 +27,7 @@ function CategoryList() {
 
     return (
         <>
-            <div>
+            <div className={style.mainContainer}>
                 {categoryImage.map(category =>
                     <Link to={`/image/${category.id}`} style={{ textDecoration: 'none', color: 'black' }}>
                         <Card key={category.id} imageName={category.name} imageSrc={category.imageUrl}></Card>
