@@ -1,12 +1,12 @@
-To Run :
+## To Run :
 
-Clone the repo.
-cd into the repo folder.
-run json-server --watch db.json --port 3000 and keep open
+Clone the repo.\
+cd into the repo folder.\
+run json-server --watch db.json --port 3000 and keep open.\
 run npm start and keep open
 
 
-NOTE :
+## NOTE :
 
 Search Bar uses to filter the categories so you must be in "All Categories" from header then search about any single category.
 
